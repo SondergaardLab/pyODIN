@@ -35,7 +35,7 @@ run `uv init` first. For example (this install uv and scvi-tools for getting tut
 curl -LsSf https://astral.sh/uv/install.sh | sh
 mkdir pyODIN_tutorial
 cd pyODIN_tutorial
-uv init
+uv init --python 3.10
 uv add git+https://github.com/SondergaardLab/pyODIN.git
 uv add scvi-tools
 ```
