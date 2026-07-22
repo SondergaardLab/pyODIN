@@ -43,10 +43,15 @@ uv add scvi-tools
 This installs `py_odin` along with every dependency declared in its
 `pyproject.toml`.
 
-If you are using macOS, and do not have homebrew installed, additional steps are needed to get `lightGBM` working:
+(!Not recommended) If you are using macOS, and do not have homebrew installed, additional steps are needed to get `lightGBM` working:
 ```bash
 uv pip uninstall lightgbm
 uv pip install lightgbm --no-binary lightgbm --config-settings=cmake.define.USE_OPENMP=OFF
+```
+
+If you have homebrew installed: 
+```bash
+brew install cmake libomp
 ```
 
 
