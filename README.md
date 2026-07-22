@@ -29,10 +29,14 @@ ODIN cell-type annotation toolkit for the `scanpy` ecosystem.
 
 This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 `uv add` runs inside a uv-managed project. If you don't already have one,
-run `uv init` first.
+run `uv init` first. For example (this also install scvi-tools for getting tutorial dataset):
 
 ```bash
+mkdir pyODIN_tutorial
+cd pyODIN_tutorial
+uv init
 uv add git+https://github.com/SondergaardLab/pyODIN.git
+uv add scvi-tools
 ```
 
 This installs `py_odin` along with every dependency declared in its
@@ -52,10 +56,8 @@ cluster-level consensus, and fine resolution classification.
 
 ### 1. Get data preprocessed
 
-`py_odin` scores cells against marker panels; it doesn't do QC, normalization,
-or clustering. This tutorial uses scvi-tools' built-in CITE-seq PBMC dataset
-(`uv add scvi-tools` — this isn't a `py_odin` dependency, it's only used
-here to fetch the demo data):
+`py_odin` scores cells against marker panels. 
+This tutorial uses scvi-tools' built-in CITE-seq PBMC dataset:
 
 ```python
 import scvi
