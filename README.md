@@ -174,6 +174,8 @@ subset = score(
     accepted_doubles_table=accepted_doubles_table,
     cell_level="CD4_T",
     use_modality="both",
+    adt_obsm_key="protein_counts_scaled",
+    adt_map_col="adt_id",
     core_cell_cutoff=1,
     similarity_threshold=1,
 )
