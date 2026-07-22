@@ -25,6 +25,12 @@ dependencies = [
     "pandas",
     "scanpy",
     "scipy",
+    "igraph",
+    "lightgbm",
+    "leidenalg",
+    "muon",
+    "openpyxl",
+    "scikit-learn",
 ]
 
 [project.optional-dependencies]
