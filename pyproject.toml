@@ -22,7 +22,7 @@ classifiers = [
 
 dependencies = [
     "numpy",
-    "pandas",
+    "pandas==2.3.3",
     "scanpy",
     "scipy",
     "igraph",
