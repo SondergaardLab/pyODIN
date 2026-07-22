@@ -222,11 +222,6 @@ calls at a glance.
 
 ---
 
-### From source (editable, for development)
-
-Use `uv sync`  to set up a local development environment:
-
-
 ## Reference
 
 See the docstrings on the following for the full parameter reference:
