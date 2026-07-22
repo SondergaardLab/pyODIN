@@ -198,7 +198,7 @@ from py_odin import simplify_labels
 adata = simplify_labels(adata, accepted_doubles_table, cell_level="Top")
 ```
 
-### 7. (Optional) Fill in remaining "unknown" cells
+### 7. (Optional) Infer remaining "unknown" cells
 
 If cells are still labeled `"unknown"` after scoring, you can train a
 classifier on the confidently-labeled cells and predict the rest. Be aware
