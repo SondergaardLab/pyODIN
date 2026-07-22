@@ -21,16 +21,16 @@ classifiers = [
 ]
 
 dependencies = [
-    "numpy",
+    "numpy>=2.2.6,<2.5",
     "pandas==2.3.3",
-    "scanpy",
-    "scipy",
-    "igraph",
-    "lightgbm",
-    "leidenalg",
-    "muon",
-    "openpyxl",
-    "scikit-learn",
+    "scanpy>=1.11.5,<1.13",
+    "scipy>=1.15.3,<1.19",
+    "igraph==1.0.0",
+    "lightgbm==4.6.0",
+    "leidenalg==0.12.0",
+    "muon==0.1.7",
+    "openpyxl==3.1.5",
+    "scikit-learn>=1.7.2,<1.10",
 ]
 
 [project.optional-dependencies]
