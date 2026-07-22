@@ -222,7 +222,7 @@ calls at a glance.
 
 ---
 
-## Reference
+## API
 
 See the docstrings on the following for the full parameter reference:
 
