@@ -29,9 +29,10 @@ ODIN cell-type annotation toolkit for the `scanpy` ecosystem.
 
 This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 `uv add` runs inside a uv-managed project. If you don't already have one,
-run `uv init` first. For example (this also install scvi-tools for getting tutorial dataset):
+run `uv init` first. For example (this install uv and scvi-tools for getting tutorial dataset):
 
 ```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
 mkdir pyODIN_tutorial
 cd pyODIN_tutorial
 uv init
