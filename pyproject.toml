@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_odin"
+version = "0.1.0"
+description = "pyODIN cell-type annotation tool"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Siddharth S. Tomar" },
+]
+keywords = ["single-cell", "scRNA-seq", "cell-type annotation", "scanpy", "bioinformatics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bioinformatics",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scanpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+ml = [
+    "lightgbm",
+    "scikit-learn",
+]
+
+[project.urls]
+Homepage = "https://github.com/SondergaardLab/pyODIN"
+Repository = "https://github.com/SondergaardLab/pyODIN"
+
+[tool.setuptools.packages.find]
+where = ["src"]
