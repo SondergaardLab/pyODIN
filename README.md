@@ -42,13 +42,6 @@ uv add scvi-tools
 This installs `py_odin` along with every dependency declared in its
 `pyproject.toml`.
 
-
-```bash
-git clone https://github.com/SondergaardLab/pyODIN.git
-cd pyODIN
-uv sync
-```
-
 ## Tutorial
 
 This walks through a full annotation pass: preprocessing, per-cell scoring,
