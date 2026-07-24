@@ -1,4 +1,4 @@
-# py_odin
+# pyODIN - Accurate and memory-efficient cell type annotation from multimodal single-cell RNA and protein data
 
 ODIN cell-type annotation toolkit for the `scanpy` ecosystem.
 
